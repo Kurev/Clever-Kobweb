@@ -13,7 +13,7 @@ const LatestProject = () => {
             <h1 className='text-[1.3rem] font-semibold text-[#403612] uppercase'>
                 The latest real estate web project offers a user-friendly and responsive platform.
             </h1>
-            <p className='text-[#00000090] text-[0.9rem] mt-4 max-w-[70rem]'>
+            <p className='text-[#00000090] text-[0.9rem] mt-4 '>
                 Our portfolio showcases a diverse range of projects, each meticulously designed to meet the evolving needs of Davao City residents. From elegant condominiums to thoughtfully planned subdivisions, we strive to create spaces that not only provide comfort and functionality but also foster a sense of belonging and well-being..
             </p>
             <div className='flex flex-col items-left mt-1 w-full '>
@@ -24,7 +24,7 @@ const LatestProject = () => {
             </div>
           </div>
           </div>
-          <div className='flex place-items-center justify-end pl-[6rem]'>
+          <div className='flex place-items-center justify-end pl-[6rem] w-full'>
             <img className='w-[20rem] h-[13rem] object-cover rounded-md cursor-pointer' src={building} alt="" />
           </div>
         </div>
@@ -32,8 +32,8 @@ const LatestProject = () => {
       </div>
 
       <div className='bg-[#F7F7F7] w-full flex justify-self-end px-[10%] border-b border-[#00000026]'>
-        <div className='py-[3rem]'>
-          <div className="max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+        <div className='py-[3rem] w-full'>
+          <div className=" max-w-[25rem] bg-white shadow-lg rounded-lg overflow-hidden">
               <img
                 src={sample}
                 alt="Project"
@@ -52,7 +52,7 @@ const LatestProject = () => {
             </div>
         </div>
 
-        <div className='w-[60%] flex justify-center h-full mt-[3rem]'>
+        <div className='w-full flex justify-center h-full mt-[3rem]'>
           <button className='bg-[#483c32] px-[2rem] py-[1rem] text-white rounded-[0.3rem] flex items-center gap-2 hover:bg-[#483c32cf]'>View Projects <IoIosArrowRoundForward size={24} /></button>
         </div>
       </div>
