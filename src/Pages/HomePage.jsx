@@ -4,6 +4,7 @@ import Hero from '../Components/Hero/Hero'
 import About from '../Components/About/About'
 import Titles from '../Components/Titles/Titles'
 import OurServices from '../Components/OurServices/OurServices'
+import LatestProject from '../Components/LatestProject/LatestProject'
 
 function HomePage() {
 
@@ -16,6 +17,8 @@ function HomePage() {
       <Titles title='Our Services'/>
       <OurServices />
       <Titles title='Lastest Project'/>
+      <LatestProject />
+      <Titles title='Contact Us'/>
     </div>
       
     </>
