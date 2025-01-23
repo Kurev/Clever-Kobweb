@@ -1,5 +1,5 @@
 import React from 'react';
-import about from '../../assets/about.png';
+import about from '../../../assets/about.png';
 import { FaFire } from "react-icons/fa";
 import { BiWorld } from "react-icons/bi";
 

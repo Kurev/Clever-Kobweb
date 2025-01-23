@@ -1,13 +1,13 @@
 import { useState } from 'react'
-import Navbar from '../Components/Navbar/Navbar'
-import Hero from '../Components/Hero/Hero'
-import About from '../Components/About/About'
-import Titles from '../Components/Titles/Titles'
-import OurServices from '../Components/OurServices/OurServices'
-import LatestProject from '../Components/LatestProject/LatestProject'
-import Contact from './../Components/Contact/Contact';
-import Office from '../Components/Office/Office'
-import Footer from '../Components/Footer/Footer'
+import Hero from '../Components/Home/Hero/Hero'
+import About from '../Components/Home/About/About'
+import Titles from '../Components/Home/Titles/Titles'
+import OurServices from '../Components/Home/OurServices/OurServices'
+import LatestProject from '../Components/Home/LatestProject/LatestProject'
+import Contact from './../Components/Home/Contact/Contact';
+import Office from '../Components/Home/Office/Office'
+import Footer from '../Components/Home/Footer/Footer'
+import Navbar from '../Components/Home/Navbar/Navbar'
 
 function HomePage() {
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import building from '../../assets/building1.png'
-import sample from '../../assets/sampleProject.png'
+import building from '../../../assets/building1.png'
+import sample from '../../../assets/sampleProject.png'
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 const LatestProject = () => {

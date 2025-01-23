@@ -2,7 +2,7 @@ import React from 'react'
 import { FaAddressCard } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaSquarePhone } from "react-icons/fa6";
-import contact from '../../assets/contact.png';
+import contact from '../../../assets/contact.png';
 import { HiMiniShieldCheck } from "react-icons/hi2";
 
 const Contact = () => {

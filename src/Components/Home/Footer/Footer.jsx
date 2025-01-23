@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className="w-full bg-black text-white font-sans">
       <div className="flex flex-col lg:flex-row justify-between border-b border-gray-500 px-10 py-10">
         <div className="mb-10 lg:mb-0">
-          <h1 className="text-2xl font-bold text-[#fff5b1] mb-2">Clever Kobweb</h1>
+          <h1 className="text-2xl font-bold text-[#ffffff] mb-2">Clever Kobweb</h1>
           <p className="text-gray-400 leading-relaxed max-w-md">
           Your dream property is our priority, guiding you home with care.
           </p>

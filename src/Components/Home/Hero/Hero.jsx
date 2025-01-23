@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from '../../assets/hero2.png';
+import heroImage from '../../../assets/hero2.png';
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { IoLogoFacebook } from "react-icons/io";
 import { BiLogoGmail } from "react-icons/bi";
