@@ -6,6 +6,8 @@ import Titles from '../Components/Titles/Titles'
 import OurServices from '../Components/OurServices/OurServices'
 import LatestProject from '../Components/LatestProject/LatestProject'
 import Contact from './../Components/Contact/Contact';
+import Office from '../Components/Office/Office'
+import Footer from '../Components/Footer/Footer'
 
 function HomePage() {
 
@@ -21,7 +23,9 @@ function HomePage() {
       <LatestProject />
       <Titles title='Contact Us' backGroundColor='bg-[#ffff]'/>
       <Contact />
-      <Titles title='Our Office' />
+      <Titles title='Our Office' backGroundColor='bg-[#ffff]'/>
+      <Office />
+      <Footer />
     </div>
       
     </>

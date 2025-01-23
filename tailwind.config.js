@@ -10,7 +10,7 @@ export default {
         glow: '0px 0px 15px rgba(255, 255, 255, 0.39)',
       },
       fontFamily: {
-        text: ["'Segoe UI'", 'Tahoma', 'Geneva', 'Verdana', 'sans-serif'],
+        main: ['Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif'],
       },
     },
   },
