@@ -5,6 +5,7 @@ import { IoLogoFacebook } from "react-icons/io";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaInstagramSquare } from "react-icons/fa";
 import { AiFillTikTok } from "react-icons/ai";
+import { Link } from 'react-router-dom';
 
 
 const Hero = () => {
@@ -21,10 +22,13 @@ const Hero = () => {
             <h1 className="text-4xl font-bold uppercase mb-4">Demo property development Corporation</h1>
             <p className="text-2xl uppercase mb-4">your trusted real estate developer</p>
             <div className='flex justify-center'>
+              <Link to='/product'>
                 <button className="bg-black py-3 px-5 rounded-[10px] flex items-center gap-2">
-                    View Project
-                    <IoIosArrowRoundForward size={24} />
-                </button>
+                      View Project
+                      <IoIosArrowRoundForward size={24} />
+                  </button>
+              </Link>
+                
             </div>
             
         </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import sample from '../../../assets/sampleProject.png'
 import { BsArrowLeftSquare } from "react-icons/bs";
 import { BsArrowRightSquare } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 
 const ProjectPage = () => {
@@ -9,7 +10,7 @@ const ProjectPage = () => {
     
         <div className='bg-[#F7F7F7] w-full h-[50%] flex flex-col justify-self-end mt-[4rem] px-[10%] border-b border-[#00000026]'>
             <div className='w-full text-center py-[3rem] flex flex-col items-center'>
-                <h1 className='text-[#57411e] text-[3rem] font-semibold'>Projects</h1>
+                <h1 className='text-[#57411e] text-[3rem] font-[400] uppercase'>Projects</h1>
                 <p className='text-[#00000055] text-[1rem] font-semibold'>Description</p>
             </div>
                 <div className='py-[3rem] w-full'>
@@ -25,9 +26,12 @@ const ProjectPage = () => {
                         <p className="text-gray-600 mt-2">
                           Sample
                         </p>
-                        <button className="mt-4 w-full bg-[#dfb145] text-white py-2 rounded hover:bg-[#dfb145ab]">
-                          View
-                        </button>
+                        <Link to='/view'>
+                            <button className="mt-4 w-full bg-[#dfb145] text-white py-2 rounded hover:bg-[#dfb145ab]">
+                            View
+                            </button>
+                        </Link>
+                        
                       </div>
                     </div>
                 </div>

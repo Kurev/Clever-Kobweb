@@ -2,6 +2,7 @@ import React from 'react'
 import building from '../../../assets/building1.png'
 import sample from '../../../assets/sampleProject.png'
 import { IoIosArrowRoundForward } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 const LatestProject = () => {
   return (
@@ -53,7 +54,12 @@ const LatestProject = () => {
         </div>
 
         <div className='w-full flex justify-center h-full mt-[3rem]'>
-          <button className='bg-[#483c32] px-[2rem] py-[1rem] text-white rounded-[0.3rem] flex items-center gap-2 hover:bg-[#483c32cf]'>View Projects <IoIosArrowRoundForward size={24} /></button>
+          <Link to='/product'>
+            <button className='bg-[#483c32] px-[2rem] py-[1rem] text-white rounded-[0.3rem] flex items-center gap-2 hover:bg-[#483c32cf]'>
+              View Projects 
+              <IoIosArrowRoundForward size={24} />
+            </button>
+          </Link>
         </div>
       </div>
     </div>
