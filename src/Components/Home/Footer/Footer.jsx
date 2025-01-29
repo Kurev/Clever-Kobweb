@@ -8,7 +8,7 @@ const Footer = () => {
     const yeardate = new Date().getFullYear();
 
   return (
-    <footer className="w-full bg-black text-white font-sans">
+    <footer className="w-full h-[100%] content-end bg-black text-white font-sans mt-auto">
       <div className="flex flex-col lg:flex-row justify-between border-b border-gray-500 px-10 py-10">
         <div className="mb-10 lg:mb-0">
           <h1 className="text-2xl font-bold text-[#ffffff] mb-2">Clever Kobweb</h1>

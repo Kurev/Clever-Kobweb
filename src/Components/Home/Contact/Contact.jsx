@@ -7,7 +7,7 @@ import { HiMiniShieldCheck } from "react-icons/hi2";
 
 const Contact = () => {
   return (
-    <div className='px-[10%] h-full w-full mt-[1rem]'>
+    <div className='px-[10%] h-full w-full mt-[1rem] mb-7'>
         <div>
             <h1 className='text-center font-[300] text-gray-600'>
             At Demo Property Development Corporation, our commitment to excellence extends beyond our design and construction projects. Our dedicated team of real estate professionals is here to assist you in every aspect of your property journey, from land acquisition and project feasibility studies to property management and investment strategies. With a deep understanding of the Davao City real estate market, we provide personalized guidance and tailored solutions to meet your unique needs and aspirations.
