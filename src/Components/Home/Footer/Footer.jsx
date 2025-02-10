@@ -39,7 +39,7 @@ const Footer = () => {
               <li className="hover:text-[#fff5b1] transition duration-500">Term of Service</li>
               <li className="hover:text-[#fff5b1] transition duration-500">Privacy Policy</li>
               <li className="hover:text-[#fff5b1] transition duration-500">Cookies Policy</li>
-              <li className="hover:text-[#fff5b1]transition duration-500">Data Processing</li>
+              <li className="hover:text-[#fff5b1] transition duration-500">Data Processing</li>
             </ul>
           </div>
         </div>

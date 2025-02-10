@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slick-dots {
+    bottom: -30px !important; /* Adjust the position */
+}
+  
+.slick-dots li button:before {
+    font-size: 12px !important; /* Adjust size */
+    color: #bfbfbf !important; /* Default dot color */
+    opacity: 0.5 !important;
+    transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+  
+.slick-dots li.slick-active button:before {
+    color: #52bbe8 !important; /* Change active dot color */
+    opacity: 1 !important;
+}
+
+/* Style for both arrows */
+.slick-prev, .slick-next {
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Customizing the left (previous) arrow */
+.slick-prev:before {
+    color: #52bbe8 !important; /* Change arrow color */
+    font-size: 30px !important;
+    opacity: 1 !important; /* Ensure visibility */
+}
+  
+  /* Customizing the right (next) arrow */
+.slick-next:before {
+    color: #52bbe8 !important; /* Change arrow color */
+    font-size: 30px !important;
+    opacity: 1 !important; /* Ensure visibility */
+}
+  

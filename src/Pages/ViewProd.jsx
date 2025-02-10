@@ -7,7 +7,7 @@ const ViewProd = () => {
   return (
     <div className="flex flex-col min-h-screen"> {/* Ensures full height */}
         <Navbar />
-            <ViewProject />
+        <ViewProject />
         <Footer />
     </div>
   )

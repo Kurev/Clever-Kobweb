@@ -1,7 +1,8 @@
 import React from 'react'
-import sample from '../../../assets/sampleProject.png'
+import sample1 from '../../../assets/beach.png'
 import { BsArrowLeftSquare } from "react-icons/bs";
 import { BsArrowRightSquare } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 const ViewProject = () => {
   return (
@@ -62,19 +63,25 @@ const ViewProject = () => {
                     <div className='py-[3rem] w-full'>
                       <div className=" max-w-[25rem] bg-white shadow-lg rounded-lg overflow-hidden">
                           <img
-                            src={sample}
+                            src={sample1}
                             alt="Project"
                             className="w-full h-48 object-cover"
                           />
                           <div className="p-4">
-                            <h1 className="text-xl font-bold text-gray-800">Sample Project</h1>
-                            <h2 className="text-lg text-gray-600 mt-1">Project Selling</h2>
+                            <h1 className="text-xl font-bold text-gray-800">Beachline</h1>
+                            <h2 className="text-lg text-gray-600 mt-1">₱15,000,000.00</h2>
                             <p className="text-gray-600 mt-2">
-                              Sample
+                                BEACHLINE
                             </p>
-                            <button className="mt-4 w-full bg-[#dfb145] text-white py-2 rounded hover:bg-[#dfb145ab]">
-                              View
-                            </button>
+                            <p className="text-gray-600 mt-2">
+                                Aundanao
+                            </p>
+                            <Link to='/property'>
+                                <button className="mt-4 w-full bg-[#dfb145] text-white py-2 rounded hover:bg-[#dfb145ab]">
+                                View
+                                </button>
+                            </Link>
+                            
                           </div>
                         </div>
                     </div>
