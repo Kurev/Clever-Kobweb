@@ -11,9 +11,9 @@ const PropertyPage = () => {
     <div>
         <Navbar />
         <Property />
-        {/* <Titles title="Amenities" />
+        <Titles title="Amenities" backGroundColor='bg-[#ffff]'/>
         <Amenities />
-        <Footer /> */}
+        <Footer />
     </div>
   )
 }
